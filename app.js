@@ -50,9 +50,9 @@ function quadrantLocator(x, y) {
         return 3;
     } else if (x > 0 && y < 0) {
         return 4;
-    } else if (x && y) {
+    } else if (x == 0 && y != 0) {
         return "X-Axis";
-    } else if (x && y) {
+    } else if (x != 0 && y == 0) {
         return "Y-Axis"
     } else {
         return "Origin";

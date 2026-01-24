@@ -50,8 +50,8 @@ function quadrantLocator(x, y) {
         return 3;
     } else if (x > 0 && y < 0) {
         return 4;
-    } console.log(`${return}`)
-}
+    }
+} console.log(quadrantLocator(1, 1));
 
 // Exercise 4 Section
 console.log("EXERCISE 4:\n==========\n");

@@ -50,6 +50,8 @@ function quadrantLocator(x, y) {
         return 3;
     } else if (x > 0 && y < 0) {
         return 4;
+    } else {
+        return "Origin";
     }
 } console.log(quadrantLocator(1, 1));
 

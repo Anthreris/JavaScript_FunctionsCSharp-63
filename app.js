@@ -41,6 +41,13 @@ function checkAge(userName, age) {
 
 // Exercise 3 Section
 console.log("EXERCISE 3:\n==========\n");
+function quadrantLocator(x, y) {
+    if (x && y) {
+        return;
+    } else if (x && y) {
+        return;
+    }
+}
 
 // Exercise 4 Section
 console.log("EXERCISE 4:\n==========\n");

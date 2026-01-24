@@ -70,6 +70,12 @@ console.log(" ")
 
 // Exercise 4 Section
 console.log("EXERCISE 4:\n==========\n");
+function triangleType() {
+    
+}
+Length * Width * Height % 2 
+
+console.log(" ")
 
 // Exercise 5 Section
 console.log("EXERCISE 5:\n==========\n");

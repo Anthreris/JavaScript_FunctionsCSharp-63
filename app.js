@@ -70,11 +70,27 @@ console.log(" ")
 
 // Exercise 4 Section
 console.log("EXERCISE 4:\n==========\n");
-function triangleType() {
-    
+function trueTriangle(a, b, c) {
+    return a + b > c && a + c > b && b + c > a;
 }
-Length * Width * Height % 2 
-
+function triangleType(a, b, c) {
+    let isTrue = trueTriangle(a, b, c);
+    if (isTrue) {
+        if (a == b && b == c) {
+            return "Equilateral Triangle";
+        } else if (a == b || b == c || a == c) {
+            return "Isosceles Triangle";
+        } else {
+            return "Scalene Triangle";
+        }
+    } else {
+            return "This isn't a real triangle"
+        }
+    }
+    console.log(triangleType(3, 3, 3)) // = Equilateral Triangle
+    console.log(triangleType(1, 2, 2)); // = Isosceles Triangle
+    console.log(triangleType(4, 5, 8)) // Scalene Triangle
+    console.log(triangleType(1, 1, 2)); // = This isn't a triangle
 console.log(" ")
 
 // Exercise 5 Section

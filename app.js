@@ -95,3 +95,6 @@ console.log(" ")
 
 // Exercise 5 Section
 console.log("EXERCISE 5:\n==========\n");
+function dataplanStatus(planLimit, day, usage) {
+    let 
+}

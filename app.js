@@ -94,7 +94,12 @@ function triangleType(a, b, c) {
 console.log(" ")
 
 // Exercise 5 Section
-console.log("EXERCISE 5:\n==========\n");
-function dataplanStatus(planLimit, day, usage) {
-    let 
-}
+// console.log("EXERCISE 5:\n==========\n");
+// function dataPlanStatus(planLimit, day, usage) {
+//     let planPeriod = 30;
+//     console.log(`${day} day(s) used, ${planPeriod - day} day(s) remaining`);
+//     console.log(`Average daily use: ${planLimit / planPeriod} GB/day`);
+//     console.log(`You are Exceeding your average daily use (${}) GB/day), continuing this high usage, you'll exceed your data plan by ${} GB/day`;
+// }
+
+// dataPlanStatus(100, 15, 56)

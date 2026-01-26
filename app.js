@@ -29,7 +29,7 @@ function checkAge(userName, age) {
     let aboveSixteen = `Congrats ${userName}, you can drive!`
     let belowSixteen = `Sorry ${userName}, but you need to wait until you're 16`
     {
-        if (age > 16) {
+        if (age >= 16) {
             console.log(aboveSixteen)
         } else
             console.log(belowSixteen)
@@ -52,9 +52,9 @@ function quadrantLocator(x, y) {
         return "Quadrant 3";
     } else if (x > 0 && y < 0) {
         return "Quadrant 4";
-    } else if (x == 0 && y != 0) {
-        return "X-Axis";
     } else if (x != 0 && y == 0) {
+        return "X-Axis";
+    } else if (x == 0 && y != 0) {
         return "Y-Axis"
     } else {
         return "Origin";
